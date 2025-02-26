@@ -75,7 +75,7 @@ jobs:
         with:
           serviceAccountJson: service_account.json
           packageName: nl.jovmit.androiddevs
-          releaseFiles: app/build/outputs/apk/release/app-release.apk
+          releaseFiles: app-java/build/outputs/apk/release/app-release.apk
           track: 'internal'
           status: 'completed'
           whatsNewDirectory: whatsNew/
